@@ -15,7 +15,7 @@ RIGHT_CORRIDOR = 592 # Eddig mehet a játékos (képének középpontja) jobbra
 UPPER_CORRIDOR = 128 # Eddig mehet a játékos (képének középpontja) felfele
 BOTTOM_CORRIDOR = 48 # Eddig mehet a játékos (képének középpontja) lefele
 
-#Main game
+
 
 #Class definition:
 
@@ -131,7 +131,6 @@ class WarriorGame(arcade.Window):
         self.coin_list = arcade.SpriteList()
         self.coin_list.append(Coin(8, 2, 6))
         self.coin_list.append(Coin(15, 2, 4))
-        self.coin_list.append(Coin(17, 3, 3))
 
     def show_bg(self):
         arcade.draw_texture_rectangle(
