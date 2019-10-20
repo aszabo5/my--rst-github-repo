@@ -17,6 +17,8 @@ BOTTOM_CORRIDOR = 48 # Eddig mehet a játékos (képének középpontja) lefele
 
 #Main game
 
+#Class definition:
+
 class WarriorGame(arcade.Window):
 
     def __init__(self):
