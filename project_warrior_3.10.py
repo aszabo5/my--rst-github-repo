@@ -145,7 +145,6 @@ class WarriorGame(arcade.Window):
         self.chest_list.append(Chest(19, 2, ["axe"], False))
         self.chest_list.append(Chest(15, 3, ["arrow"], True))
         self.chest_list.append(Chest(17, 1, [], True))
-        self.chest_list.append(Chest(17, 4, ["hammer", "staff", "scroll"], True))
 
     def show_gold_text(self):
         arcade.draw_text(str(self.gold), FIELD_SIZE, BG_HEIGHT - 2 * FIELD_SIZE, arcade.color.WHITE, 30)
