@@ -15,7 +15,9 @@ RIGHT_CORRIDOR = 592 # Eddig mehet a játékos (képének középpontja) jobbra
 UPPER_CORRIDOR = 128 # Eddig mehet a játékos (képének középpontja) felfele
 BOTTOM_CORRIDOR = 48 # Eddig mehet a játékos (képének középpontja) lefele
 
+#Main game
 
+#Class definition:
 
 class WarriorGame(arcade.Window):
 
